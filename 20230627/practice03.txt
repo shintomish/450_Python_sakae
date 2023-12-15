@@ -1,0 +1,915 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+ <head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  <meta content="text/css" http-equiv="Content-Style-Type"/>
+  <title>
+   青空文庫　Aozora Bunko
+  </title>
+  <style type="text/css">
+   <!--
+body { margin-left: 5%; margin-right: 5%; margin-bottom: 5% }
+a:hover { color: white; background: #0000ff }
+table { padding: 0.5em }
+td.navi { background: #000063 }
+td.navi a { color: white }
+td.navi a:hover { color: #000063; background: #ffffff }
+td.header { text-align: left; vertical-align: top; border-style: solid; border-width: 1px; border-color: #d3d3d3 }
+td.subheader { text-align: right; vertical-align: top; border-style: solid; border-width: 1px; border-color: #d3d3d3 }
+td.summary { text-align: left; vertical-align: top; border-style: solid; border-width: 1px; border-color: #d3d3d3 }
+th { border: solid; border-width: 1px 0 1px 0; border-color: #000063 }
+-->
+  </style>
+ </head>
+ <body alink="#ff0000" bgcolor="#ffffff" link="#0000ff" text="#000000" vlink="#00008b">
+  <center>
+   <!-- navigation -->
+   <table cellpadding="4" cellspacing="0" class="navi" summary="navi" width="90%">
+    <tr>
+     <td rowspan="3" style="background: #000063" width="100">
+      <img alt="青空文庫" class="titleLogo" height="100" src="images/top_logo.png" title="青空文庫" width="100"/>
+     </td>
+     <td align="right" class="navi" colspan="2" style="background: #000063">
+      <a href="#main" name="top">
+       メイン
+      </a>
+      <a href="#information">
+       お知らせ
+      </a>
+      <a href="#sub">
+       別館
+      </a>
+      <a href="#documents">
+       資料
+      </a>
+      <a href="#manage">
+       運営
+      </a>
+      <a <="" tr="">
+       <tr>
+        <td align="center" valign="top">
+         <a href="shiryo_pdlocked.html">
+          <img alt="著作権保護期間延長" border="0" height="50" src="banner/pd-locked-mini.png" width="230"/>
+         </a>
+        </td>
+        <td align="right" valign="top">
+         <script type="text/javascript">
+          <!--
+var nm=0;var as_q=new String("");var dkey=new String("");
+function se(nm){dkey=document.forms[0].as_q.value;
+if(dkey!=""){dkey=uu[nm]+"site:www.aozora.gr.jp+"+encodeURIComponent(dkey);window.open(dkey,'_blank');}}
+uu=new Array(7);uu[0]="";
+uu[1]="http://www.google.co.jp/search?hl=ja&num=20&q=";
+uu[2]="http://www.bing.com/search?q=";
+uu[3]="http://search.naver.jp/search?&q=";
+uu[4]="http://www.baidu.jp/s?rn=20&wd=";
+uu[5]="http://search.goo.ne.jp/web.jsp?IE=UTF-8&MT=";
+uu[6]="http://search.yahoo.co.jp/search?p=";
+//-->
+         </script>
+         <form action="https://www.google.com/search" method="get" name="f" target="_blank">
+          www.aozora.gr.jp 内を検索
+          <input name="hl" type="hidden" value="ja"/>
+          <input name="lr" type="hidden" value="lang_ja"/>
+          <input name="ie" type="hidden" value="utf-8"/>
+          <input name="num" type="hidden" value="20"/>
+          <input name="complete" type="hidden" value="0"/>
+          <input name="as_dt" type="hidden" value="i"/>
+          <input name="as_sitesearch" type="hidden" value="www.aozora.gr.jp"/>
+          <input name="as_q" size="25" type="text" value=""/>
+          <br/>
+          <input style="width:60px;height:25px" type="submit" value="Google"/>
+          <!--<input type="button" style="width:60px;height:25px" onclick="se(1)" value="Google">-->
+          <input onclick="se(2)" style="width:60px;height:25px" type="button" value="bing"/>
+          <!--<input type="button" style="width:60px;height:25px" onclick="se(3)" value="Naver">-->
+          <!--<input type="button" style="width:60px;height:25px" onclick="se(4)" value="Baidu">-->
+          <input onclick="se(5)" style="width:60px;height:25px" type="button" value="goo"/>
+          <!--<input type="button" style="width:50px;height:25px" onclick="se(6)" value="Yahoo!">-->
+         </form>
+        </td>
+       </tr>
+      </a>
+     </td>
+    </tr>
+   </table>
+   <h1 style="font-size: 1.5em">
+    インターネットの電子図書館、青空文庫へようこそ。
+   </h1>
+   <p style="font-size:200%">
+    「
+    <a href="soramoyou/soramoyouindex.html" title="青空文庫、充電中">
+     青空文庫、充電中
+    </a>
+    」
+    <br/>
+   </p>
+   <p>
+    初めての方はまず「
+    <a href="guide/aozora_bunko_hayawakari.html" title="青空文庫早わかり">
+     青空文庫早わかり
+    </a>
+    」をご覧ください。
+    <br/>
+   </p>
+   <p>
+    ファイル利用をお考えの方は、
+    <a href="guide/kijyunn.html" title="青空文庫収録ファイルの取り扱い規準">
+     こちら
+    </a>
+    をご一読ください。
+    <br/>
+   </p>
+   <p>
+    「
+    <a href="guide/roudoku.html">
+     青空文庫収録ファイルを用いた朗読配信をお考えのみなさまへ
+    </a>
+    」
+    <br/>
+   </p>
+   <!-- main area -->
+   <table cellpadding="4" cellspacing="3" summary="main" width="90%">
+    <tr>
+     <th bgcolor="#d3d3d3" colspan="2">
+      <a name="main">
+       メインエリア
+      </a>
+     </th>
+    </tr>
+    <tr>
+     <td bgcolor="#ffffcc" class="header" valign="top" width="30%">
+      <a href="guide/aozora_bunko_hayawakari.html" title="青空文庫早わかり">
+       青空文庫早わかり
+      </a>
+     </td>
+     <td bgcolor="#f0f8ff" class="summary" width="70%">
+      青空文庫の使い方と約束事を紹介しています。初めての方、ファイルやキャプチャーの取り扱いについて知りたい方も、こちらへどうぞ。
+     </td>
+    </tr>
+    <tr>
+     <td bgcolor="#ffffcc" class="header" valign="top" width="30%">
+      <a href="index_pages/index_top.html" title="総合インデックス">
+       総合インデックス
+      </a>
+     </td>
+     <td bgcolor="#f0f8ff" class="summary" width="70%">
+      作家名、作品名の50音別に、公開作品と入力・校正作業中の作品を一覧できるインデックスです。公開中の作品を探すときは、下の近道もご利用ください。
+     </td>
+    </tr>
+    <tr>
+     <td align="right" bgcolor="#ffffcc" class="subheader" valign="top" width="30%">
+      公開中　作家別：
+     </td>
+     <td bgcolor="#f0f8ff" class="summary" width="70%">
+      <!--azur:br-->
+      <a href="index_pages/person_a.html">
+       あ行
+      </a>
+      <a href="index_pages/person_ka.html">
+       か行
+      </a>
+      <a href="index_pages/person_sa.html">
+       さ行
+      </a>
+      <a href="index_pages/person_ta.html">
+       た行
+      </a>
+      <a href="index_pages/person_na.html">
+       な行
+      </a>
+      <a href="index_pages/person_ha.html">
+       は行
+      </a>
+      <br/>
+      <a href="index_pages/person_ma.html">
+       ま行
+      </a>
+      <a href="index_pages/person_ya.html">
+       や行
+      </a>
+      <a href="index_pages/person_ra.html">
+       ら行
+      </a>
+      <a href="index_pages/person_wa.html">
+       わ行
+      </a>
+      <a href="index_pages/person_zz.html">
+       他
+      </a>
+     </td>
+    </tr>
+    <tr>
+     <td align="right" bgcolor="#ffffcc" class="subheader" valign="top" width="30%">
+      公開中　作品別：
+     </td>
+     <td bgcolor="#f0f8ff" class="summary" width="70%">
+      <table border="0" style="padding:0" summary="作品リスト" width="100%">
+       <tr>
+        <td align="center" bgcolor="#f0f8ff" width="10%">
+         <a href="index_pages/sakuhin_a1.html">
+          あ
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff" width="10%">
+         <a href="index_pages/sakuhin_ka1.html">
+          か
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff" width="10%">
+         <a href="index_pages/sakuhin_sa1.html">
+          さ
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff" width="10%">
+         <a href="index_pages/sakuhin_ta1.html">
+          た
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff" width="10%">
+         <a href="index_pages/sakuhin_na1.html">
+          な
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff" width="10%">
+         <a href="index_pages/sakuhin_ha1.html">
+          は
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff" width="10%">
+         <a href="index_pages/sakuhin_ma1.html">
+          ま
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff" width="10%">
+         <a href="index_pages/sakuhin_ya1.html">
+          や
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff" width="10%">
+         <a href="index_pages/sakuhin_ra1.html">
+          ら
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff" width="10%">
+         <a href="index_pages/sakuhin_wa1.html">
+          わ
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td align="center" bgcolor="#f0f8ff">
+         <a href="index_pages/sakuhin_i1.html">
+          い
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff">
+         <a href="index_pages/sakuhin_ki1.html">
+          き
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff">
+         <a href="index_pages/sakuhin_si1.html">
+          し
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff">
+         <a href="index_pages/sakuhin_ti1.html">
+          ち
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff">
+         <a href="index_pages/sakuhin_ni1.html">
+          に
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff">
+         <a href="index_pages/sakuhin_hi1.html">
+          ひ
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff">
+         <a href="index_pages/sakuhin_mi1.html">
+          み
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff">
+        </td>
+        <td align="center" bgcolor="#f0f8ff">
+         <a href="index_pages/sakuhin_ri1.html">
+          り
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff">
+         <a href="index_pages/sakuhin_wo1.html">
+          を
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td align="center" bgcolor="#f0f8ff">
+         <a href="index_pages/sakuhin_u1.html">
+          う
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff">
+         <a href="index_pages/sakuhin_ku1.html">
+          く
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff">
+         <a href="index_pages/sakuhin_su1.html">
+          す
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff">
+         <a href="index_pages/sakuhin_tu1.html">
+          つ
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff">
+         <a href="index_pages/sakuhin_nu1.html">
+          ぬ
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff">
+         <a href="index_pages/sakuhin_hu1.html">
+          ふ
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff">
+         <a href="index_pages/sakuhin_mu1.html">
+          む
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff">
+         <a href="index_pages/sakuhin_yu1.html">
+          ゆ
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff">
+         <a href="index_pages/sakuhin_ru1.html">
+          る
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff">
+         <a href="index_pages/sakuhin_nn1.html">
+          ん
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td align="center" bgcolor="#f0f8ff">
+         <a href="index_pages/sakuhin_e1.html">
+          え
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff">
+         <a href="index_pages/sakuhin_ke1.html">
+          け
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff">
+         <a href="index_pages/sakuhin_se1.html">
+          せ
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff">
+         <a href="index_pages/sakuhin_te1.html">
+          て
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff">
+         <a href="index_pages/sakuhin_ne1.html">
+          ね
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff">
+         <a href="index_pages/sakuhin_he1.html">
+          へ
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff">
+         <a href="index_pages/sakuhin_me1.html">
+          め
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff">
+        </td>
+        <td align="center" bgcolor="#f0f8ff">
+         <a href="index_pages/sakuhin_re1.html">
+          れ
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff">
+        </td>
+       </tr>
+       <tr>
+        <td align="center" bgcolor="#f0f8ff">
+         <a href="index_pages/sakuhin_o1.html">
+          お
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff">
+         <a href="index_pages/sakuhin_ko1.html">
+          こ
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff">
+         <a href="index_pages/sakuhin_so1.html">
+          そ
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff">
+         <a href="index_pages/sakuhin_to1.html">
+          と
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff">
+         <a href="index_pages/sakuhin_no1.html">
+          の
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff">
+         <a href="index_pages/sakuhin_ho1.html">
+          ほ
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff">
+         <a href="index_pages/sakuhin_mo1.html">
+          も
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff">
+         <a href="index_pages/sakuhin_yo1.html">
+          よ
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff">
+         <a href="index_pages/sakuhin_ro1.html">
+          ろ
+         </a>
+        </td>
+        <td align="center" bgcolor="#f0f8ff">
+         <a href="index_pages/sakuhin_zz1.html">
+          他
+         </a>
+        </td>
+       </tr>
+      </table>
+      <tr>
+       <td align="right" bgcolor="#ffffcc" class="subheader" valign="top" width="30%">
+        作業中：
+       </td>
+       <td bgcolor="#f0f8ff" class="summary" width="70%">
+        <a href="index_pages/index_top.html#work_list">
+         作家別・作品別
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td bgcolor="#ffffcc" class="header" valign="top" width="30%">
+        <a href="https://yozora.main.jp/" title="青空文庫　分野別リスト">
+         青空文庫　分野別リスト
+        </a>
+       </td>
+       <td bgcolor="#f0f8ff" class="summary" width="70%">
+        分野別に公開作品を一覧できる、インデックスです。
+       </td>
+      </tr>
+     </td>
+    </tr>
+   </table>
+   <div align="right">
+    <a href="#top" title="このページの先頭へ">
+     ▲
+    </a>
+   </div>
+   <!-- banner area -->
+   <!--ADVERTISEMENT1-->
+   <hr width="90%"/>
+   <a href="https://www.aozora.gr.jp/aozorablog/" target="_top">
+    <img alt="aozorablog" border="0" height="90" src="banner/aozorablog.png" width="460"/>
+   </a>
+   <hr width="90%"/>
+   <!-- information area -->
+   <table cellpadding="4" cellspacing="3" summary="information" width="90%">
+    <tr>
+     <th bgcolor="#d3d3d3" colspan="2">
+      <a name="information">
+       お知らせ
+      </a>
+     </th>
+    </tr>
+    <tr>
+     <td bgcolor="#ffffcc" class="header" valign="top" width="30%">
+      <a href="index_pages/whatsnew1.html" title="新着情報">
+       新着情報
+      </a>
+     </td>
+     <td bgcolor="#f0f8ff" class="summary" width="70%">
+      新規公開作品の一覧表です。随時更新。
+     </td>
+    </tr>
+    <tr>
+     <td align="right" bgcolor="#ffffcc" class="subheader" valign="top" width="30%">
+      最新公開作品：
+      <br/>
+      07月10日
+     </td>
+     <td bgcolor="#f0f8ff" class="summary" width="70%">
+      原 民喜
+      <br/>
+      <a href="cards/000293/card60515.html">
+       『「詩集　登高」跋』
+      </a>
+      <br/>
+      テインペーミン
+      <br/>
+      <a href="cards/002328/card62210.html">
+       『テインペーミン短編集』
+      </a>
+     </td>
+    </tr>
+    <tr>
+     <td bgcolor="#ffffcc" class="header" valign="top" width="30%">
+      <a href="soramoyou/soramoyouindex.html" title="青空文庫からのお知らせ">
+       そらもよう
+      </a>
+     </td>
+     <td bgcolor="#f0f8ff" class="summary" width="70%">
+      青空文庫からのお知らせを掲載します。
+      <br/>
+      最終更新日：23年07月07日
+     </td>
+    </tr>
+   </table>
+   <!-- banner area -->
+   <!--ADVERTISEMENT2-->
+   <hr width="90%"/>
+   <a href="https://honnomirai.net/" target="_top">
+    <img alt="本の未来基金" border="0" height="90" src="banner/honnomirai.png" width="460"/>
+   </a>
+   <hr width="90%"/>
+   <!-- sub site area -->
+   <table cellpadding="4" cellspacing="3" summary="sub-site" width="90%">
+    <tr>
+     <th bgcolor="#d3d3d3" colspan="2">
+      <a name="sub">
+       青空文庫・別館
+      </a>
+     </th>
+    </tr>
+    <tr>
+     <td bgcolor="#ffffcc" class="header" valign="top" width="30%">
+      <a href="https://www.aozora.gr.jp/aozorablog/" title="blog">
+       aozorablog
+      </a>
+     </td>
+     <td bgcolor="#f0f8ff" class="summary" width="70%">
+      有志によるブログ。３代目です。まずはのぞいてみてください。
+     </td>
+    </tr>
+    <tr>
+     <td bgcolor="#ffffcc" class="header" valign="top" width="30%">
+      <a href="http://honnomirai.net/" title="honnomirai">
+       本の未来基金
+      </a>
+     </td>
+     <td bgcolor="#f0f8ff" class="summary" width="70%">
+      青空文庫へ寄付をお考えの方は、こちらから。
+     </td>
+    </tr>
+    <tr>
+     <td bgcolor="#ffffcc" class="header" valign="top" width="30%">
+      <a href="http://aozorahack.org/" title="aozorahack">
+       aozorahack
+      </a>
+     </td>
+     <td bgcolor="#f0f8ff" class="summary" width="70%">
+      エンジニアによる青空文庫の支援や活用を話し合い、関連情報を蓄積する場です。
+     </td>
+    </tr>
+   </table>
+   <!-- banner area -->
+   <!--ADVERTISEMENT3-->
+   <hr width="90%"/>
+   <a href="https://aozorahack.org/" target="_top">
+    <img alt="aozorahack" border="0" height="90" src="banner/aozorahack.png" width="460"/>
+   </a>
+   <hr width="90%"/>
+   <!-- documents area -->
+   <table cellpadding="4" cellspacing="3" summary="documents" width="90%">
+    <tr>
+     <th bgcolor="#d3d3d3" colspan="2">
+      <a name="documents">
+       資料室
+      </a>
+     </th>
+    </tr>
+    <tr>
+     <td bgcolor="#ffffcc" class="header" valign="top" width="30%">
+      <a href="aozora-manual/" title="青空文庫のバイブル">
+       青空文庫作業マニュアル
+      </a>
+     </td>
+     <td bgcolor="#f0f8ff" class="summary" width="70%">
+      入力・校正作業の手引きと、著作権に対する方針が記されています。作業前に必ずお目通しを。
+     </td>
+    </tr>
+    <tr>
+     <td bgcolor="#ffffcc" class="header" valign="top" width="30%">
+      <a href="annotation/" title="注記の書き方">
+       注記一覧
+      </a>
+     </td>
+     <td bgcolor="#f0f8ff" class="summary" width="70%">
+      テキスト版の注記の書き方をまとめています。作業時の友に。
+     </td>
+    </tr>
+    <tr>
+     <td bgcolor="#ffffcc" class="header" valign="top" width="30%">
+      <a href="guide/techo.html" title="作業時に役立つツールをお手元に">
+       耕作員手帳
+      </a>
+     </td>
+     <td bgcolor="#f0f8ff" class="summary" width="70%">
+      作業時に役立つマニュアルやツール類をまとめたリンク集です。
+     </td>
+    </tr>
+    <tr>
+     <td bgcolor="#ffffcc" class="header" valign="top" width="30%">
+      <a href="guide/aozora_bunko_faq.html" title="よくある質問">
+       青空文庫ＦＡＱ
+      </a>
+     </td>
+     <td bgcolor="#f0f8ff" class="summary" width="70%">
+      青空文庫についてよくある質問集です。困ったことがあればまずご参照を。
+     </td>
+    </tr>
+    <tr>
+     <td bgcolor="#ffffcc" class="header" valign="top" width="30%">
+      <a href="index_pages/index_all.html" title="全員集合">
+       登録全作家インデックス
+      </a>
+     </td>
+     <td bgcolor="#f0f8ff" class="summary" width="70%">
+      登録されているすべての作家について、作品の登録状況、進行状況を確認できます。
+     </td>
+    </tr>
+    <tr>
+     <td bgcolor="#ffffcc" class="header" valign="top" width="30%">
+      <a href="siryo1.html" title="著作権消滅">
+       著作権が消滅した作家
+      </a>
+     </td>
+     <td bgcolor="#f0f8ff" class="summary" width="70%">
+      青空文庫への登録が可能な作家のリストです。
+     </td>
+    </tr>
+    <tr>
+     <td bgcolor="#ffffcc" class="header" valign="top" width="30%">
+      <a href="access_ranking/" title="アクセスランキング">
+       アクセスランキング
+      </a>
+     </td>
+     <td bgcolor="#f0f8ff" class="summary" width="70%">
+      XHTML版、テキスト版の、月間500位を示します。
+     </td>
+    </tr>
+    <tr>
+     <td bgcolor="#ffffcc" class="header" valign="top" width="30%">
+      <a href="readingTEXT/index.html" title="TEXTを楽しむ">
+       青空文庫のXHTML, TEXTの読み方
+      </a>
+     </td>
+     <td bgcolor="#f0f8ff" class="summary" width="70%">
+      青空文庫のファイルを読む方法をご紹介しています。
+      <br/>
+     </td>
+    </tr>
+    <tr>
+     <td bgcolor="#ffffcc" class="header" valign="top" width="30%">
+      <a href="guide/kijyunn.html" title="青空文庫ファイルの利用">
+       収録ファイルの取り扱い規準
+      </a>
+     </td>
+     <td bgcolor="#f0f8ff" class="summary" width="70%">
+      ファイル利用をお考えの方は、まずこちらをご一読ください。
+      <br/>
+     </td>
+    </tr>
+    <tr>
+     <td bgcolor="#ffffcc" class="header" valign="top" width="30%">
+      <a href="guide/shuuroku.html" title="青空文庫への登録">
+       作品収録を望まれる方へ
+      </a>
+     </td>
+     <td bgcolor="#f0f8ff" class="summary" width="70%">
+      青空文庫への作品収録の方針・手順を示しています。
+      <br/>
+     </td>
+    </tr>
+    <tr>
+     <td bgcolor="#ffffcc" class="header" valign="top" width="30%">
+      <a href="guide/roudoku.html" title="青空文庫の朗読利用">
+       朗読配信をお考えの皆様へ
+      </a>
+     </td>
+     <td bgcolor="#f0f8ff" class="summary" width="70%">
+      青空文庫を朗読配信する際の注意点がまとめられています。
+      <br/>
+     </td>
+    </tr>
+    <tr>
+     <td bgcolor="#ffffcc" class="header" valign="top" width="30%">
+      歩みの記録
+     </td>
+     <td bgcolor="#f0f8ff" class="summary" width="70%">
+      これまでに公開したそらもようから、一里塚となるような、重要な話題をピックアップしました。
+      <br/>
+      <table>
+       <tr>
+        <td nowrap="" valign="top">
+         23/07/07
+        </td>
+        <td>
+         <a href="soramoyou/soramoyouindex.html#000529">
+          26年目の七夕に――近況のご報告
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td nowrap="" valign="top">
+         23/04/19
+        </td>
+        <td>
+         <a href="soramoyou/soramoyouindex.html#000528">
+          青空文庫メールシステムの更新について
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td nowrap="" valign="top">
+         23/01/01
+        </td>
+        <td>
+         <a href="soramoyou/soramoyouindex.html#000527">
+          『電子アーカイヴ』はしばし電気をためて夢を見る
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td nowrap="" valign="top">
+         22/12/23
+        </td>
+        <td>
+         <a href="soramoyou/soramoyou2022.html#000526">
+          青空文庫の新サーバーおよび新システムの導入に際しての充電期間の設定について
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td nowrap="" valign="top">
+         22/07/07
+        </td>
+        <td>
+         <a href="soramoyou/soramoyou2022.html#000525">
+          青空文庫の「式年遷宮」に向けて
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td nowrap="" valign="top">
+         22/01/01
+        </td>
+        <td>
+         <a href="soramoyou/soramoyou2022.html#000523">
+          みんなで作るテクスト共同体のその先へ
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td nowrap="" valign="top">
+         21/12/01
+        </td>
+        <td>
+         <a href="soramoyou/soramoyou2021.html#000522">
+          ジャパンサーチとのメタデータ連携と次期青空文庫データベースの開発に際しての「青空文庫収録ファイルの取り扱い規準」と「作家別作品一覧CSVファイル」の改訂対応について
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td nowrap="" valign="top">
+         21/07/07
+        </td>
+        <td>
+         <a href="soramoyou/soramoyou2021.html#000521">
+          リンク集「耕作員手帳」
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td nowrap="" valign="top">
+         21/01/01
+        </td>
+        <td>
+         <a href="soramoyou/soramoyou2021.html#000518">
+          本棚をいっぱいにすれば、嵐にも立ち向かえる
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td nowrap="" valign="top">
+         20/07/07
+        </td>
+        <td>
+         <a href="soramoyou/soramoyou2020.html#000516">
+          受付・点検の制限付き再開のお知らせ
+         </a>
+        </td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+   </table>
+   <div align="right">
+    <a href="#top" title="このページの先頭へ">
+     ▲
+    </a>
+   </div>
+   <!-- banner area -->
+   <!-- documents area -->
+   <!-- management area -->
+   <table cellpadding="4" cellspacing="3" summary="management" width="90%">
+    <tr>
+     <th bgcolor="#d3d3d3" colspan="2">
+      <a name="manage">
+       運営について
+      </a>
+     </th>
+    </tr>
+    <tr>
+     <td bgcolor="#ffffcc" class="header" valign="top" width="30%">
+      <a href="cards/001790/card56572.html" title="提案">
+       青空文庫の提案
+      </a>
+     </td>
+     <td bgcolor="#f0f8ff" class="summary" width="70%">
+      青空文庫が、どのようなコンセプトでスタートしたかをご紹介しています。
+     </td>
+    </tr>
+    <tr>
+     <td bgcolor="#ffffcc" class="header" valign="top" width="30%">
+      <a href="aozora_bunkono_shikumi.html" title="しくみ">
+       青空文庫のしくみ
+      </a>
+     </td>
+     <td bgcolor="#f0f8ff" class="summary" width="70%">
+      青空文庫が、どのようなしくみで運営されているかをご紹介しています。
+     </td>
+    </tr>
+    <tr>
+     <td bgcolor="#ffffcc" class="header" valign="top" width="30%">
+      <a href="kaikei/index.html" target="_top" title="会計">
+       会計報告
+      </a>
+     </td>
+     <td bgcolor="#f0f8ff" class="summary" width="70%">
+      青空文庫の台所事情です。
+     </td>
+    </tr>
+    <tr>
+     <td bgcolor="#ffffcc" class="header" valign="top" width="30%">
+      <a href="houkokusyo/kadai.html" title="課題">
+       直面した課題
+      </a>
+     </td>
+     <td bgcolor="#f0f8ff" class="summary" width="70%">
+      過去に直面した問題点と対応をまとめています。
+      <br/>
+     </td>
+    </tr>
+   </table>
+   <div align="right">
+    <a href="#top" title="このページの先頭へ">
+     ▲
+    </a>
+   </div>
+   <hr width="90%"/>
+   <!-- footer -->
+   収録作品数：17356（著作権なし：16957、著作権あり：399）
+   <hr width="90%"/>
+   <p>
+    <img alt="青空文庫リンクバナー" border="0" height="32" src="images/azbtn.gif" width="88"/>
+    ←リンクの際にご利用ください。リンクは自由です。
+   </p>
+   <p>
+    このページのお問い合わせは、info@aozora.gr.jpまでお願いいたします。
+    <br/>
+    <br/>
+   </p>
+  </center>
+ </body>
+</html>
+
